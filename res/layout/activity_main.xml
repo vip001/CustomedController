@@ -1,0 +1,25 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.personal.customedcontroller.MainActivity" >
+
+        <Button
+            android:id="@+id/btn_circle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="圆形控件" />
+
+        <Button
+            android:id="@+id/btn_shimmer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="闪光条状" />
+    </LinearLayout>
+
+</ScrollView>
